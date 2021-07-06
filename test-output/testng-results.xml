@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAutomation testSuite" duration-ms="6756" started-at="2021-07-06T03:54:39Z" finished-at="2021-07-06T03:54:46Z">
+    <groups>
+    </groups>
+    <test name="RestAutomation tests" duration-ms="6756" started-at="2021-07-06T03:54:39Z" finished-at="2021-07-06T03:54:46Z">
+      <class name="testCases.TC004_UnknownEmployess">
+        <test-method status="PASS" signature="logs()[pri:0, instance:testCases.TC004_UnknownEmployess@490ab905]" name="logs" is-config="true" duration-ms="2" started-at="2021-07-06T03:54:46Z" finished-at="2021-07-06T03:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logs -->
+        <test-method status="PASS" signature="EmployeesNotFound()[pri:0, instance:testCases.TC004_UnknownEmployess@490ab905]" name="EmployeesNotFound" duration-ms="426" started-at="2021-07-06T03:54:46Z" finished-at="2021-07-06T03:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeesNotFound -->
+      </class> <!-- testCases.TC004_UnknownEmployess -->
+      <class name="testCases.TC002_GetSingleUserOfEmp">
+        <test-method status="PASS" signature="logs()[pri:0, instance:testCases.TC002_GetSingleUserOfEmp@3f49dace]" name="logs" is-config="true" duration-ms="239" started-at="2021-07-06T03:54:39Z" finished-at="2021-07-06T03:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logs -->
+        <test-method status="PASS" signature="getUserEmployees()[pri:0, instance:testCases.TC002_GetSingleUserOfEmp@3f49dace]" name="getUserEmployees" duration-ms="5521" started-at="2021-07-06T03:54:40Z" finished-at="2021-07-06T03:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserEmployees -->
+      </class> <!-- testCases.TC002_GetSingleUserOfEmp -->
+      <class name="testCases.TC003_EmployeeNotFound">
+        <test-method status="PASS" signature="logs()[pri:0, instance:testCases.TC003_EmployeeNotFound@1e397ed7]" name="logs" is-config="true" duration-ms="5" started-at="2021-07-06T03:54:45Z" finished-at="2021-07-06T03:54:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logs -->
+        <test-method status="PASS" signature="EmployeesNotFound()[pri:0, instance:testCases.TC003_EmployeeNotFound@1e397ed7]" name="EmployeesNotFound" duration-ms="511" started-at="2021-07-06T03:54:45Z" finished-at="2021-07-06T03:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeesNotFound -->
+      </class> <!-- testCases.TC003_EmployeeNotFound -->
+    </test> <!-- RestAutomation tests -->
+  </suite> <!-- RestAutomation testSuite -->
+</testng-results>

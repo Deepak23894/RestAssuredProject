@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestAutomation testSuite">
+<listeners>
+<listener class-name="listners.TestListners"/>
+</listeners>
+<test name="RestAutomation tests">
+<classes>
+<class name="testCases.TC001_GetEmployee"/>
+<class name="testCases.TC002_GetSingleUserOfEmp"/>
+ <class name="testCases.TC003_EmployeeNotFound"/> 
+<class name="testCases.TC004_UnknownEmployess"/>
+<class name="testCases.TC005_CreateAndUpdateUser"/>
+<class name="testCases.TC006_CreateAndDeleteUser"/>
+<class name="testCases.TC007_RegisterAndLogIn"/>
+</classes>
+</test>
+</suite>
